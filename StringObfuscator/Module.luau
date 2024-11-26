@@ -97,7 +97,7 @@ end
 -- Decodes a table of 64-bit floating-point values into a string.
 function F64Obfuscator:F64Decode(encodedValue:F64EncodedTable):string
 	local count = Constants.SeparationLength
-	local DecodedString = "" -- used if method is "string"
+	local DecodedString = ""
 	
 	for n,FloatValue in pairs(encodedValue) do
 		local Buffer2 = buffer.create(count)
