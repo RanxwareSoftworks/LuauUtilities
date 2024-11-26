@@ -1,14 +1,19 @@
--- F64Obfuscator Module
+-- F64Obfuscator Module V1.0.1
 -- A simple string obfuscation utility, made by AsteriskCodes (@Untyper)
 
 -- This tool uses the buffer library and 64-bit floating-point value conversions
 -- Explanations (that i yapped about) are shown in the code...
 
 
--- Types used in the module
-export type F64EncodedTable = { [number]: number }
+--[=[ Types in module ]=]
 
-export type SeparatedTextTable = { [number]: string }
+if game then
+	export type F64EncodedTable = { [number]: number }
+	export type SeparatedTextTable = { [number]: string }
+else
+	type F64EncodedTable = { [number]: number }
+	type SeparatedTextTable = { [number]: string }
+end
 
 --[=[ Constants in module ]=]
 
