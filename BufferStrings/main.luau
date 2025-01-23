@@ -13,55 +13,55 @@ local module = {}
 
 local BufferMethods = {
 	Write = {
-		i8 = function(t)
-			return buffer.writei8(t)
+		i8 = function(...)
+			return buffer.writei8(...)
 		end,
-		u8 = function(t)
-			return buffer.writeu8(t)
+		u8 = function(...)
+			return buffer.writeu8(...)
 		end,
-		i16 = function(t)
-			return buffer.writei16(t)
+		i16 = function(...)
+			return buffer.writei16(...)
 		end,
-		u16 = function(t)
-			return buffer.writeu16(t)
+		u16 = function(...)
+			return buffer.writeu16(...)
 		end,
-		i32 = function(t)
-			return buffer.writei32(t)
+		i32 = function(...)
+			return buffer.writei32(...)
 		end,
-		u32 = function(t)
-			return buffer.writeu32(t)
+		u32 = function(...)
+			return buffer.writeu32(...)
 		end,
-		f32 = function(t)
-			return buffer.writef32(t)
+		f32 = function(...)
+			return buffer.writef32(...)
 		end,
-		f64 = function(t)
-			return buffer.writef64(t)
+		f64 = function(...)
+			return buffer.writef64(...)
 		end,
 	},
 	Read = {
-		i8 = function(t)
-			return buffer.readi8(t)
+		i8 = function(...)
+			return buffer.readi8(...)
 		end,
-		u8 = function(t)
-			return buffer.readu8(t)
+		u8 = function(...)
+			return buffer.readu8(...)
 		end,
-		i16 = function(t)
-			return buffer.readi16(t)
+		i16 = function(...)
+			return buffer.readi16(...)
 		end,
-		u16 = function(t)
-			return buffer.readu16(t)
+		u16 = function(...)
+			return buffer.readu16(...)
 		end,
-		i32 = function(t)
-			return buffer.readi32(t)
+		i32 = function(...)
+			return buffer.readi32(...)
 		end,
-		u32 = function(t)
-			return buffer.readu32(t)
+		u32 = function(...)
+			return buffer.readu32(...)
 		end,
-		f32 = function(t)
-			return buffer.readf32(t)
+		f32 = function(...)
+			return buffer.readf32(...)
 		end,
-		f64 = function(t)
-			return buffer.readf64(t)
+		f64 = function(...)
+			return buffer.readf64(...)
 		end,
 	}
 }
