@@ -129,7 +129,7 @@ function module:Encode(value:string):BuffTable
 end
 
 function module:Decode(value:BuffTable, filler:string?)
-	filler = filler or Constants.FillerCharacter
+	filler = filler or Config.FillerCharacter
 
 	local SepNum = BufferLimits[mode]
 	local Result = ""
