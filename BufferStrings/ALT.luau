@@ -1,6 +1,6 @@
 -- BufferStrings
 -- Simple string obfuscator with buffer lib
--- alternative edition
+-- legacy edition
 
 local Config = {
 	FillerCharacter = string.char(239),
